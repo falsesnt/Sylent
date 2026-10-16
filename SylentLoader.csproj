@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SylentLoader</AssemblyName>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>13.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="SylentLoader.Resources.gta5.png" />
+    <None Remove="SylentLoader.Resources.rdr2.jpg" />
+    <None Remove="SylentLoader.Resources.gta_city.jpg" />
+    <None Remove="SylentLoader.Resources.gta_bg.jpg" />
+    <None Remove="SylentLoader.Resources.rdr2_bg.jpg" />
+    <None Remove="SylentLoader.Resources.a2d40f63.bin" />
+	<None Remove="SylentLoader.Resources.7be02a44.bin" />
+	<None Remove="SylentLoader.Resources.d43a9f1c.bin" />
+    <EmbeddedResource Include="SylentLoader.Resources.gta5.png" LogicalName="SylentLoader.Resources.gta5.png" />
+    <EmbeddedResource Include="SylentLoader.Resources.rdr2.jpg" LogicalName="SylentLoader.Resources.rdr2.jpg" />
+    <EmbeddedResource Include="SylentLoader.Resources.gta_city.jpg" LogicalName="SylentLoader.Resources.gta_city.jpg" />
+    <EmbeddedResource Include="SylentLoader.Resources.gta_bg.jpg" LogicalName="SylentLoader.Resources.gta_bg.jpg" />
+    <EmbeddedResource Include="SylentLoader.Resources.rdr2_bg.jpg" LogicalName="SylentLoader.Resources.rdr2_bg.jpg" />
+    <EmbeddedResource Include="SylentLoader.Resources.a2d40f63.bin" LogicalName="SylentLoader.Resources.a2d40f63.bin" />
+	<EmbeddedResource Include="SylentLoader.Resources.7be02a44.bin" LogicalName="SylentLoader.Resources.7be02a44.bin" />
+	<EmbeddedResource Include="SylentLoader.Resources.d43a9f1c.bin" LogicalName="SylentLoader.Resources.d43a9f1c.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Primitives">
+      <HintPath>System.Windows.Forms.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
